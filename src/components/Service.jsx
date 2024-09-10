@@ -17,11 +17,11 @@ const Service = () => {
     }
 
     return (
-        <section className="services padding">
+        <section id="services" className="services padding scroll-margin" data-aos="zoom-in-down">
             <h2>What we offer?</h2>
             <p>A one stop solution for all you real-estate needs, Wanna buy, rent or sell click the below for excisting offers</p>
             <div className="cards">
-                {serviceContent.map(service => <ServiceCard title={service.title} content={service.content} img={service.img} />)}
+                {serviceContent.map((service, index) => <ServiceCard key={index} title={service.title} content={service.content} img={service.img} />)}
             </div>
         </section>
     )

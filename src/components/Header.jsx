@@ -1,4 +1,6 @@
-import NavList from "./NavList"
+import DesktopNav from "./DesktopNav";
+import MobileNav from "./MobileNav";
+
 
 const Header = () => {
     return (
@@ -6,7 +8,8 @@ const Header = () => {
             <div className="brand-name">
                 <h1>Dream Lands</h1>
             </div>
-            <NavList />
+            <DesktopNav />
+            <MobileNav />
         </header>
     )
 }

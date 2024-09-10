@@ -1,6 +1,6 @@
 const About = () => {
     return (
-        <section className="about padding">
+        <section data-aos="fade-up" id="about" className="about padding">
             <div className="text-content">
                 <h2>Why Dream Lands?</h2>
                 <p>I dont know i need to build a webpage so I am beui;ling and adding thid content. thats all. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, cumque iste veritatis, dolor odio ea similique vel sint quasi rem id excepturi nemo cum molestiae placeat tempore voluptatibus dolore voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus eligendi illo laudantium, fuga aliquid beatae at eveniet nostrum, vel voluptate, et soluta nisi sequi similique consequatur labore? Laborum, enim quasi.</p>

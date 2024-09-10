@@ -1,6 +1,6 @@
 const Contact = () => {
     return (
-        <section className="contact padding text-center">
+        <section id="contact" className="contact padding text-center scroll-margin" data-aos="fade-up">
         <div>
         <h2>Fill your contact here</h2>
         <p>Our agent will each out to understand your specific needs</p>
